@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Photography Portfolio
 
-## Getting Started
+A modern photography portfolio website showcasing my travel and portrait photographs from Japan, Singapore, and Spain. Features an immersive gallery experience with custom animations and filterable photo collections.
 
-First, run the development server:
+## Features
+- **Immersive Intro Animation**: Engaging loading sequence built with GSAP
+- **Category Browsing**: View photographs organized by category
+- **Advanced Filtering**: Filter photos by camera, location, year, and category
+- **Image Detail View**: Examine photos with detailed metadata display
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Dark Mode**: Elegant dark theme designed for photography presentation
+- **Contact Form**: Built-in contact form with EmailJS integration
+- **SEO Optimized**: Metadata management for better search engine visibility
 
+## Technologies Used
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Animation**: Framer Motion, GSAP
+- **Image Optimization**: Next.js Image component
+- **Form Handling**: React Hooks, EmailJS
+- **Deployment**: Vercel
+
+## Live Demo
+Check out the live demo of the photography portfolio:  
+[Photography Portfolio Live Demo](https://shizukadesu.com/)
+
+## Screenshots
+### Gallery View
+![Gallery View Screenshot](screenshots/gallery.PNG)
+### Photo Detail
+![Photo Detail Screenshot](screenshots/details.PNG)
+
+## Installation
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/<your-username>/photography-portfolio.git
+cd photography-portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and visit http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
+```
+src/
+├── app/            # Next.js app directory with page components
+├── components/     # Reusable UI components
+├── data/           # Data files including image collections
+├── types/          # TypeScript type definitions
+├── public/         # Static assets including images
+└── styles/         # Global CSS styles
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
+The application can be built for production using:
+```bash
+npm run build
+# or
+yarn build
+```
 
-## Learn More
+## Contact
+If you have any questions or feedback, feel free to reach out:
+- Email: ayatgimenez@hotmail.com
+- LinkedIn: [Hicham AYAT GIMENEZ](https://www.linkedin.com/in/hicham-a-9553ba28b/)
+- Portfolio: [Portfolio Website](https://shizukadesu.com/)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by Shizuka
