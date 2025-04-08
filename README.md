@@ -38,7 +38,7 @@ Check out the live demo of the photography portfolio:
 ### Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/photography-portfolio.git
+git clone https://github.com/TheShizuka/photographPortfolio
 cd photography-portfolio
 ```
 
